@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{eb7d905d-35a4-230c-1a18-06a4f899fdbc}</ProjectGuid>
+    <ProjectGuid>{846c430d-21fc-8134-457e-360c23b20f41}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Burst.CodeGen</AssemblyName>
@@ -303,19 +303,19 @@
         <HintPath>C:\Program Files\Unity 2021.3.29f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-        <HintPath>C:\Users\ZongyangMin\Ruby&apos;s Adventure\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
+        <HintPath>C:\Users\ZongyangMin\RA\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil">
-        <HintPath>C:\Users\ZongyangMin\Ruby&apos;s Adventure\Library\PackageCache\com.unity.burst@1.8.4\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+        <HintPath>C:\Users\ZongyangMin\RA\Library\PackageCache\com.unity.burst@1.8.4\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Rocks">
-        <HintPath>C:\Users\ZongyangMin\Ruby&apos;s Adventure\Library\PackageCache\com.unity.burst@1.8.4\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+        <HintPath>C:\Users\ZongyangMin\RA\Library\PackageCache\com.unity.burst@1.8.4\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Pdb">
-        <HintPath>C:\Users\ZongyangMin\Ruby&apos;s Adventure\Library\PackageCache\com.unity.burst@1.8.4\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+        <HintPath>C:\Users\ZongyangMin\RA\Library\PackageCache\com.unity.burst@1.8.4\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Mdb">
-        <HintPath>C:\Users\ZongyangMin\Ruby&apos;s Adventure\Library\PackageCache\com.unity.burst@1.8.4\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+        <HintPath>C:\Users\ZongyangMin\RA\Library\PackageCache\com.unity.burst@1.8.4\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
         <HintPath>C:\Program Files\Unity 2021.3.29f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>
@@ -698,7 +698,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Burst.csproj">
-      <Project>{bf8576cb-8cd9-bce4-1416-27db29896fde}</Project>
+      <Project>{501853ca-f82b-3f17-50c9-4f4828ca7b69}</Project>
       <Name>Unity.Burst</Name>
     </ProjectReference>
   </ItemGroup>

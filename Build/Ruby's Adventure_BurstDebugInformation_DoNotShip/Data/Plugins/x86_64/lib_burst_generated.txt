@@ -1,4 +1,4 @@
-Library: C:\Users\ZongyangMin\Ruby's Adventure\Temp\StagingArea\Data\Plugins\x86_64\lib_burst_generated
+Library: C:\Users\ZongyangMin\RA\Temp\StagingArea\Data\Plugins\x86_64\lib_burst_generated
 --platform=Windows
 --backend=burst-llvm-14
 --target=AVX2
@@ -97,11 +97,6 @@ Library: C:\Users\ZongyangMin\Ruby's Adventure\Temp\StagingArea\Data\Plugins\x86
 --compilation-defines=NET_STANDARD_2_1
 --compilation-defines=NETSTANDARD
 --compilation-defines=NETSTANDARD2_1
---compilation-defines=DEVELOPMENT_BUILD
---compilation-defines=ENABLE_PROFILER
---compilation-defines=DEBUG
---compilation-defines=TRACE
---compilation-defines=UNITY_ASSERTIONS
 --compilation-defines=ENABLE_CUSTOM_RENDER_TEXTURE
 --compilation-defines=ENABLE_DIRECTOR
 --compilation-defines=ENABLE_LOCALIZATION
@@ -142,11 +137,10 @@ Library: C:\Users\ZongyangMin\Ruby's Adventure\Temp\StagingArea\Data\Plugins\x86
 --compilation-defines=ENABLE_URP
 --linker-options=PdbAltPath="Ruby's Adventure_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp\burst.link.xml
---temp-folder=C:\Users\ZongyangMin\Ruby's Adventure\Temp\Burst
---debug=Full
+--temp-folder=C:\Users\ZongyangMin\RA\Temp\Burst
 --key-folder=C:/Program Files/Unity 2021.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
---decode-folder=C:\Users\ZongyangMin\Ruby's Adventure\Library\Burst
---output=C:\Users\ZongyangMin\Ruby's Adventure\Temp\StagingArea\Data\Plugins\x86_64\lib_burst_generated
+--decode-folder=C:\Users\ZongyangMin\RA\Library\Burst
+--output=C:\Users\ZongyangMin\RA\Temp\StagingArea\Data\Plugins\x86_64\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
 
 --method=Unity.Burst.BurstCompiler+BurstCompilerHelper, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::IsBurstEnabled()--8c2be93e18276203cbd918daa2748a10
@@ -262,11 +256,6 @@ Library: C:\Users\ZongyangMin\Ruby's Adventure\Temp\StagingArea\Data\Plugins\x86
 --compilation-defines=NET_STANDARD_2_1
 --compilation-defines=NETSTANDARD
 --compilation-defines=NETSTANDARD2_1
---compilation-defines=DEVELOPMENT_BUILD
---compilation-defines=ENABLE_PROFILER
---compilation-defines=DEBUG
---compilation-defines=TRACE
---compilation-defines=UNITY_ASSERTIONS
 --compilation-defines=ENABLE_CUSTOM_RENDER_TEXTURE
 --compilation-defines=ENABLE_DIRECTOR
 --compilation-defines=ENABLE_LOCALIZATION
@@ -307,11 +296,10 @@ Library: C:\Users\ZongyangMin\Ruby's Adventure\Temp\StagingArea\Data\Plugins\x86
 --compilation-defines=ENABLE_URP
 --linker-options=PdbAltPath="Ruby's Adventure_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp\burst.link.xml
---temp-folder=C:\Users\ZongyangMin\Ruby's Adventure\Temp\Burst
---debug=Full
+--temp-folder=C:\Users\ZongyangMin\RA\Temp\Burst
 --key-folder=C:/Program Files/Unity 2021.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
---decode-folder=C:\Users\ZongyangMin\Ruby's Adventure\Library\Burst
---output=C:\Users\ZongyangMin\Ruby's Adventure\Temp\StagingArea\Data\Plugins\x86_64\lib_burst_generated
+--decode-folder=C:\Users\ZongyangMin\RA\Library\Burst
+--output=C:\Users\ZongyangMin\RA\Temp\StagingArea\Data\Plugins\x86_64\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
 
 --method=Unity.Burst.BurstCompiler+BurstCompilerHelper, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::IsBurstEnabled()--8c2be93e18276203cbd918daa2748a10

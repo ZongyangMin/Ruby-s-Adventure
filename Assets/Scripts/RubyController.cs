@@ -1,12 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class RubyController : MonoBehaviour
 {
     public float speed = 3.0f;
     
     public int maxHealth = 5;
+
+    public GameObject gameOverScreen;
+
+    public GameObject healthBar;
     
     public GameObject projectilePrefab;
     
@@ -23,6 +28,11 @@ public class RubyController : MonoBehaviour
     Rigidbody2D rigidbody2d;
     float horizontal;
     float vertical;
+    
+
+    public ParticleSystem hitParticlePlayer;
+
+    public ParticleSystem collectHealth;
     
     Animator animator;
     Vector2 lookDirection = new Vector2(1,0);
@@ -52,6 +62,11 @@ public class RubyController : MonoBehaviour
         {
             lookDirection.Set(move.x, move.y);
             lookDirection.Normalize();
+        }
+
+        if(currentHealth <= 0)
+        {
+            GameOver();
         }
         
         animator.SetFloat("Look X", lookDirection.x);
@@ -103,7 +118,13 @@ public class RubyController : MonoBehaviour
             isInvincible = true;
             invincibleTimer = timeInvincible;
             
+            animator.SetTrigger("Hit");
             PlaySound(hitSound);
+            Instantiate(hitParticlePlayer, transform.position + Vector3.up * 0.5f, Quaternion.identity);
+        }
+        else
+        {
+            Instantiate(collectHealth, transform.position + Vector3.up * 0.5f, Quaternion.identity);
         }
         
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
@@ -126,5 +147,17 @@ public class RubyController : MonoBehaviour
     public void PlaySound(AudioClip clip)
     {
         audioSource.PlayOneShot(clip);
+    }
+
+    public void GameOver()
+    {
+        healthBar.SetActive(false);
+        gameOverScreen.SetActive(true);
+        Time.timeScale = 0;
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            Time.timeScale = 1;
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
     }
 }

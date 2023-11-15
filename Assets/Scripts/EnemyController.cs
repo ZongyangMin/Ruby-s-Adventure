@@ -16,6 +16,10 @@ public class EnemyController : MonoBehaviour
     bool broken = true;
     
     Animator animator;
+
+    GameCount gameCount;
+
+    public GameObject manager;
     
     // Start is called before the first frame update
     void Start()
@@ -23,6 +27,7 @@ public class EnemyController : MonoBehaviour
         rigidbody2D = GetComponent<Rigidbody2D>();
         timer = changeTime;
         animator = GetComponent<Animator>();
+        gameCount = manager.GetComponent<GameCount>();
     }
 
     void Update()
@@ -82,10 +87,11 @@ public class EnemyController : MonoBehaviour
     public void Fix()
     {
         broken = false;
+        
         rigidbody2D.simulated = false;
         //optional if you added the fixed animation
         animator.SetTrigger("Fixed");
-        
+        gameCount.fixedBots++;
         smokeEffect.Stop();
     }
 }

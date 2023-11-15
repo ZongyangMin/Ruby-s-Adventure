@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{bf8576cb-8cd9-bce4-1416-27db29896fde}</ProjectGuid>
+    <ProjectGuid>{501853ca-f82b-3f17-50c9-4f4828ca7b69}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Burst</AssemblyName>
@@ -346,7 +346,7 @@
         <HintPath>C:\Program Files\Unity 2021.3.29f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Unsafe">
-        <HintPath>C:\Users\ZongyangMin\Ruby&apos;s Adventure\Library\PackageCache\com.unity.burst@1.8.4\Unity.Burst.Unsafe.dll</HintPath>
+        <HintPath>C:\Users\ZongyangMin\RA\Library\PackageCache\com.unity.burst@1.8.4\Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>C:\Program Files\Unity 2021.3.29f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
@@ -717,11 +717,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{f6b4a753-7580-67bc-d0d6-83f8da4f5723}</Project>
+      <Project>{e16f6dc9-1dbe-2fe9-fd14-e77171628f73}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{133e4fb7-8ed9-aef7-4014-22148185610f}</Project>
+      <Project>{6d1e6ebf-b7f8-baa6-5b3c-9666c1c9722d}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

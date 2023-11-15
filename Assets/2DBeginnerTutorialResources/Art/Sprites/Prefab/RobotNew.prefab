@@ -78,7 +78,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300008, guid: 651c4abeb0812e74685da0e5a31c8dff, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -89,7 +89,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!50 &8035036261710030051
 Rigidbody2D:
   serializedVersion: 4
@@ -110,7 +110,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &8035036261710030048
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -124,7 +124,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.17907524, y: 0.85266685}
+  m_Offset: {x: -0.02217567, y: 0.51038605}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
@@ -135,7 +135,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.0232563, y: 1.7053332}
+  m_Size: {x: 0.5783174, y: 1.0207716}
   m_EdgeRadius: 0
 --- !u!114 &8035036261710030050
 MonoBehaviour:
@@ -149,10 +149,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30197a8d205300a47a51a7d233886cc7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  speed: 2
   vertical: 0
-  changeTime: 3
-  smokeEffect: {fileID: 0}
+  changeTime: 2
+  smokeEffect: {fileID: 2771262065410310697}
 --- !u!95 &8035036261710030053
 Animator:
   serializedVersion: 5
@@ -277,6 +277,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8035036261710030049}
     m_Modifications:
+    - target: {fileID: 984932185933448708, guid: 3428758cd69c5f74bb2c59ab86f104d7, type: 3}
+      propertyPath: cullingMode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 984932185933448708, guid: 3428758cd69c5f74bb2c59ab86f104d7, type: 3}
+      propertyPath: ShapeModule.type
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 984932185933448708, guid: 3428758cd69c5f74bb2c59ab86f104d7, type: 3}
+      propertyPath: moveWithTransform
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 984932185933448708, guid: 3428758cd69c5f74bb2c59ab86f104d7, type: 3}
+      propertyPath: emitterVelocityMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 984932185933448708, guid: 3428758cd69c5f74bb2c59ab86f104d7, type: 3}
+      propertyPath: ShapeModule.arc.value
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 984932185933448708, guid: 3428758cd69c5f74bb2c59ab86f104d7, type: 3}
+      propertyPath: ShapeModule.m_Rotation.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 984932185933448708, guid: 3428758cd69c5f74bb2c59ab86f104d7, type: 3}
+      propertyPath: ShapeModule.radiusThickness
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 984932185933448709, guid: 3428758cd69c5f74bb2c59ab86f104d7, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -325,10 +353,19 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmokeEffect
       objectReference: {fileID: 0}
+    - target: {fileID: 984932185933448711, guid: 3428758cd69c5f74bb2c59ab86f104d7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 10308, guid: 0000000000000000f000000000000000, type: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3428758cd69c5f74bb2c59ab86f104d7, type: 3}
 --- !u!4 &2771262065410310696 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 984932185933448709, guid: 3428758cd69c5f74bb2c59ab86f104d7, type: 3}
+  m_PrefabInstance: {fileID: 3161156062118511661}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &2771262065410310697 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 984932185933448708, guid: 3428758cd69c5f74bb2c59ab86f104d7, type: 3}
   m_PrefabInstance: {fileID: 3161156062118511661}
   m_PrefabAsset: {fileID: 0}

@@ -386,6 +386,9 @@
 "Assets/Scripts/NonPlayerCharacter.cs"
 "Assets/Scripts/Projectile.cs"
 "Assets/Scripts/RubyController.cs"
+"Assets/Scripts/Tanner/Penguin_Intro.cs"
+"Assets/Scripts/Tanner/Quit.cs"
+"Assets/Scripts/Tanner/Start.cs"
 "Assets/Scripts/UIHealthBar.cs"
 -langversion:9.0
 

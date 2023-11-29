@@ -1,0 +1,404 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.29f1 (204d6dc9ae1c) revision 2116973'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'en' Physical Memory: 32717 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.3.29f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/ZongyangMin/RA
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59048
+Successfully changed project path to: C:/Users/ZongyangMin/RA
+C:/Users/ZongyangMin/RA
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [40740] Host "[IP] 172.16.0.63 [Port] 0 [Flags] 2 [Guid] 3334013827 [EditorId] 3334013827 [Version] 1048832 [Id] WindowsEditor(7,JERRY-AW15) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [40740] Host "[IP] 172.16.0.63 [Port] 0 [Flags] 2 [Guid] 3334013827 [EditorId] 3334013827 [Version] 1048832 [Id] WindowsEditor(7,JERRY-AW15) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 144.12 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.29f1 (204d6dc9ae1c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.29f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ZongyangMin/RA/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6800 XT (ID=0x73bf)
+    Vendor:   ATI
+    VRAM:     16338 MB
+    Driver:   31.0.22023.1014
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.3.29f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.3.29f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56596
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.3.29f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2021.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011577 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 130.97 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.778 seconds
+Domain Reload Profiling:
+	ReloadAssembly (778ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (555ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (119ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (321ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (131ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (128ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.011292 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ZongyangMin\RA\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ZongyangMin\RA\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 141.14 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.454 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1455ms)
+		BeginReloadAssembly (148ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1187ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (278ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (686ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (141ms)
+				BeforeProcessingInitializeOnLoad (164ms)
+				ProcessInitializeOnLoadAttributes (257ms)
+				ProcessInitializeOnLoadMethodAttributes (99ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.17 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5443 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (0.8 MB). Loaded Objects now: 5901.
+Memory consumption went from 214.6 MB to 213.8 MB.
+Total: 4.347500 ms (FindLiveObjects: 0.597800 ms CreateObjectMapping: 0.157100 ms MarkObjects: 3.173000 ms  DeleteObjects: 0.418100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015952 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ZongyangMin\RA\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ZongyangMin\RA\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.371 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1371ms)
+		BeginReloadAssembly (173ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1090ms)
+			LoadAssemblies (143ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (313ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (527ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (130ms)
+				ProcessInitializeOnLoadAttributes (269ms)
+				ProcessInitializeOnLoadMethodAttributes (101ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5349 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (0.8 MB). Loaded Objects now: 5916.
+Memory consumption went from 204.8 MB to 204.1 MB.
+Total: 5.366300 ms (FindLiveObjects: 0.794400 ms CreateObjectMapping: 0.279700 ms MarkObjects: 3.808600 ms  DeleteObjects: 0.482000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 236675.588049 seconds.
+  path: Assets/2DBeginnerTutorialResources/Audio/Tanner
+  artifactKey: Guid(0074c3080e6106b4cafd50b6369ff7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DBeginnerTutorialResources/Audio/Tanner using Guid(0074c3080e6106b4cafd50b6369ff7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0dd7a9f9b4cc4f6ffbf3d40a88e161') in 0.106498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 249.657509 seconds.
+  path: Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin
+  artifactKey: Guid(a6af4f7631fc9e04fa01cc6d0fa938b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin using Guid(a6af4f7631fc9e04fa01cc6d0fa938b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ee0cfaaf9139abd358c54860fc9b155') in 0.002979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.764273 seconds.
+  path: Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sample.unity
+  artifactKey: Guid(65ab4801f0dd6774086584710d4fcd97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sample.unity using Guid(65ab4801f0dd6774086584710d4fcd97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b5ff3819c4bb8632aae89f13e096cd2') in 0.002879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.346286 seconds.
+  path: Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites
+  artifactKey: Guid(939ce7c6cc34d7d41a81051de96f49db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites using Guid(939ce7c6cc34d7d41a81051de96f49db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f033fade82c608c6471a42c6776281d') in 0.002279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.220559 seconds.
+  path: Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_atack_01.png
+  artifactKey: Guid(6059ad9a67fda844aa2d256b0f868934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_atack_01.png using Guid(6059ad9a67fda844aa2d256b0f868934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6952d7cde61b0005c33c2d65a62240d9') in 0.385386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_slide_03.png
+  artifactKey: Guid(5b812e93c05ea4345a5924253cee070b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_slide_03.png using Guid(5b812e93c05ea4345a5924253cee070b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7494f968f821d6cde4c6b8bb5e032fc') in 0.029152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_jump_01.png
+  artifactKey: Guid(d00a97fec0ddfde49bb6a9ae8d67a45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_jump_01.png using Guid(d00a97fec0ddfde49bb6a9ae8d67a45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c46e04aa5aeb30fa3ab9a347dc4b2057') in 0.033635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_walk_05.png
+  artifactKey: Guid(46f53a456f6630c48939a8e43d1dd3d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_walk_05.png using Guid(46f53a456f6630c48939a8e43d1dd3d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f6e1459dba2b2f8a77a4a96d990f708') in 0.033345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_slide_01.png
+  artifactKey: Guid(8bd8a87ef1d4a5c45a119c9abdfb08af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_slide_01.png using Guid(8bd8a87ef1d4a5c45a119c9abdfb08af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c3d0b378e51a4cb17bd55b06f2c69ad') in 0.036021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_idle_02.png
+  artifactKey: Guid(bc773256dd1a7474a86a67f0fe38f4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_idle_02.png using Guid(bc773256dd1a7474a86a67f0fe38f4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30c8a446721565ce70740e945d8d94ad') in 0.036835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_walk_08.png
+  artifactKey: Guid(b8cde0148568e5c46991e889cfc06f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_walk_08.png using Guid(b8cde0148568e5c46991e889cfc06f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a0310b8bd67ec9d86c412b7e260d27') in 0.032424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_preslide_01.png
+  artifactKey: Guid(1b5f6e65e18ef0849bc5f9aa181467c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_preslide_01.png using Guid(1b5f6e65e18ef0849bc5f9aa181467c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '341cf95f506c59c34cb1105c944ce542') in 0.032262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_idle_03.png
+  artifactKey: Guid(e9edcc163e6607941b40459039ff3ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_idle_03.png using Guid(e9edcc163e6607941b40459039ff3ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dc49b473829b38296e1e963134be36c') in 0.032906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_walk_03.png
+  artifactKey: Guid(0da402cd4c165004fbce7ae0fe1e8368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_walk_03.png using Guid(0da402cd4c165004fbce7ae0fe1e8368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd27b85c199437ec6f1bc370fc7139f66') in 0.033757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_jump_02.png
+  artifactKey: Guid(371145ea5533f274aa6550d168f1bf4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_jump_02.png using Guid(371145ea5533f274aa6550d168f1bf4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb6b70433f2c370819ef143e00f22ab6') in 0.033271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_idle_01.png
+  artifactKey: Guid(901639f1dddd7b04aa3c943786d274d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_idle_01.png using Guid(901639f1dddd7b04aa3c943786d274d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d8e5b4a69ada3178e02e00f18fc866') in 0.037711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_walk_04.png
+  artifactKey: Guid(36ff8417f47c0564dac83ad12f13f3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_walk_04.png using Guid(36ff8417f47c0564dac83ad12f13f3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaa33abae04d66aee0e27b12fa1d2fdd') in 0.033678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_walk_02.png
+  artifactKey: Guid(c7bf2343067bbe94eb1be7596f0c61eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_walk_02.png using Guid(c7bf2343067bbe94eb1be7596f0c61eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb1034759049fbfdff8d01c796d0bb8') in 0.035853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_idle_04.png
+  artifactKey: Guid(443d79d7afdb77c4fa37bedd87b49eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/sprites/penguin_idle_04.png using Guid(443d79d7afdb77c4fa37bedd87b49eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd716ee15c213dedcd2cf610408f7bc') in 0.034301 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011741 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ZongyangMin\RA\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ZongyangMin\RA\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.118 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2119ms)
+		BeginReloadAssembly (468ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (26ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (216ms)
+		EndReloadAssembly (1465ms)
+			LoadAssemblies (205ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (496ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (90ms)
+			SetupLoadedEditorAssemblies (645ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (166ms)
+				ProcessInitializeOnLoadAttributes (319ms)
+				ProcessInitializeOnLoadMethodAttributes (124ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5349 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (0.7 MB). Loaded Objects now: 5938.
+Memory consumption went from 208.9 MB to 208.2 MB.
+Total: 5.734900 ms (FindLiveObjects: 0.645700 ms CreateObjectMapping: 0.173800 ms MarkObjects: 4.538100 ms  DeleteObjects: 0.375800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
